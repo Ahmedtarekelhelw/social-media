@@ -1,0 +1,25 @@
+.top {
+  display: flex;
+  align-items: center;
+  img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  p {
+    font-weight: 300;
+    font-size: 15px;
+  }
+}
+.middle {
+  margin: 20px 0;
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+.bottom {
+  h4 {
+    text-transform: capitalize;
+    margin-bottom: 15px;
+  }
+}

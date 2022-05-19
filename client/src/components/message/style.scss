@@ -1,0 +1,36 @@
+.message {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  &.own {
+    align-items: flex-end;
+    .text {
+      p {
+        background-color: rgb(227, 227, 228);
+        color: #000;
+      }
+    }
+  }
+  .text {
+    max-width: 400px;
+    display: flex;
+    margin-bottom: 5px;
+    img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 5px;
+    }
+    p {
+      background-color: rgb(12, 152, 199);
+      border-radius: 20px;
+      padding: 10px;
+      color: #fff;
+    }
+  }
+  .time {
+    color: gray;
+    font-size: 15px;
+  }
+}

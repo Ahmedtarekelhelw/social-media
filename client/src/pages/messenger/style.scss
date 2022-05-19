@@ -1,0 +1,25 @@
+.messenger {
+  display: flex;
+  padding: 15px 15px 0 15px;
+  .conversations-menu {
+    flex: 1;
+  }
+
+  .chat-menu {
+    flex: 3;
+    padding: 0 20px;
+    .no-conversation {
+      font-size: 40px;
+      text-align: center;
+      display: flex;
+      color: #bfb5b5;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      cursor: default;
+    }
+  }
+  .online-menu {
+    flex: 1;
+  }
+}

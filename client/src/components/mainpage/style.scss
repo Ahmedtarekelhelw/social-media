@@ -1,0 +1,10 @@
+.main-page {
+  flex: 5;
+  padding: 20px;
+  .no-post {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+  }
+}

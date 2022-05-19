@@ -1,0 +1,73 @@
+.post {
+  margin: 20px 0;
+  .post-box {
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    .top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .user-info {
+        display: flex;
+        align-items: center;
+        img {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          object-fit: cover;
+          margin-right: 10px;
+          cursor: pointer;
+        }
+        .user-name {
+          font-weight: 600;
+          font-size: 18px;
+          margin-right: 8px;
+        }
+        .date {
+          color: gray;
+          font-size: 15px;
+        }
+      }
+      .icon {
+        cursor: pointer;
+      }
+    }
+    .center {
+      margin: 15px 0;
+      .post-text {
+        margin: 10px 0;
+      }
+      img {
+        width: 100%;
+        max-height: 500px;
+        object-fit: contain;
+      }
+    }
+    .bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .likes {
+        display: flex;
+        align-items: center;
+        img {
+          width: 30px;
+          margin-right: 5px;
+          cursor: pointer;
+        }
+        span {
+          font-size: 15px;
+          cursor: pointer;
+        }
+      }
+      .comments {
+        color: gray;
+        font-size: 15px;
+        cursor: pointer;
+      }
+    }
+  }
+}

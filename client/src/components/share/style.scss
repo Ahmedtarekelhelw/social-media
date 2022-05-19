@@ -1,0 +1,87 @@
+.share {
+  .share-box {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    padding: 10px;
+    .selected-img {
+      width: 100%;
+      margin-top: 10px;
+      position: relative;
+      img {
+        width: 100%;
+      }
+      span {
+        position: absolute;
+        top: 20px;
+        right: 10px;
+        cursor: pointer;
+        font-size: 18px;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    .top {
+      display: flex;
+      align-items: center;
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 15px;
+        object-fit: cover;
+      }
+      input {
+        outline: none;
+        border: none;
+        font-size: 15px;
+        width: 100%;
+      }
+    }
+    hr {
+      margin: 20px 15px;
+    }
+    .bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 15px;
+      .icon-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        .label-container {
+          display: flex;
+        }
+        .share-item {
+          display: flex;
+          align-items: center;
+          margin-right: 15px;
+          cursor: pointer;
+          .shareIcon {
+            margin-right: 8px;
+          }
+          span {
+            font-size: 13px;
+            font-weight: 500;
+          }
+        }
+      }
+      button {
+        padding: 8px 10px;
+        cursor: pointer;
+        border: none;
+        color: #fff;
+        background-color: green;
+        border-radius: 5px;
+      }
+    }
+  }
+}
